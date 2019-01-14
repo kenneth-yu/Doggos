@@ -1,0 +1,7 @@
+<h2>All Doggos</h2>
+
+<% @doggos.each do |doggo| %>
+<ul>
+<li><%=link_to doggo.name, doggo_path(doggo) %></li>
+</ul>
+<% end %>

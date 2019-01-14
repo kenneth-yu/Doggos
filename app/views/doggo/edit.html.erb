@@ -1,0 +1,9 @@
+<h2>Create a New Doggo</h2>
+
+<%= form_for @doggo do |f| %>
+<%= f.label :name%>
+<%= f.text_field :name%>
+<%= f.label :species%>
+<%= f.text_field :species%>
+<%= f.submit "Create Doggo" %>
+<% end %>
